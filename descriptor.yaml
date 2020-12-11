@@ -1,5 +1,5 @@
 code: extracted-standard-demo-bundle
-description: Standard Demo Bundle
+description: EXTRACTED Standard Demo Bundle
 components:
   widgets:
     - widgets/nws_archive-descriptor.yaml
