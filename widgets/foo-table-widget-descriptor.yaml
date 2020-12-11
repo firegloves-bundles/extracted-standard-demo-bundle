@@ -1,0 +1,18 @@
+code: foo-table-widget
+titles:
+  en: Foo Table Widget
+  it: Foo Table Widget
+group: free
+customUi: |
+  <#assign wp=JspTaglibs["/aps-core"]>
+  <script nonce="<@wp.cspNonce />" src="<@wp.resourceURL />standard-demo-bundle/thelucas-bundle/static/js/2.d36ba50b.chunk.js" ></script>
+  <script nonce="<@wp.cspNonce />" src="<@wp.resourceURL />standard-demo-bundle/thelucas-bundle/static/js/2.d36ba50b.chunk.js.map" ></script>
+  <script nonce="<@wp.cspNonce />" src="<@wp.resourceURL />standard-demo-bundle/thelucas-bundle/static/js/main.0455ccbb.chunk.js" ></script>
+  <script nonce="<@wp.cspNonce />" src="<@wp.resourceURL />standard-demo-bundle/thelucas-bundle/static/js/main.0455ccbb.chunk.js.map" ></script>
+  <script nonce="<@wp.cspNonce />" src="<@wp.resourceURL />standard-demo-bundle/thelucas-bundle/static/js/runtime~main.970a3c42.js" ></script>
+  <script nonce="<@wp.cspNonce />" src="<@wp.resourceURL />standard-demo-bundle/thelucas-bundle/static/js/runtime~main.970a3c42.js.map" ></script>
+  <#-- entando_resource_injection_point -->
+  <#-- Don't add anything above this line. The build scripts will automatically link the compiled JS and CSS for you and add them above this line so that the widget can be loaded-->
+
+  <#-- This is the custom element -->
+  <foo-table service-url="/theLucas/api" />

@@ -1,0 +1,13 @@
+name: awesomeplugin
+image: 'kerruba/the-lucas:0.0.1-SNAPSHOT'
+dbms: postgresql
+healthCheckPath: /management/health
+ingressPath: /awesomeplugin.io/entando-plugin
+roles:
+  - theLucas-admin
+  - foo-admin
+permissions:
+  - clientId: realm-management
+    role: manage-users
+  - clientId: realm-management
+    role: view-users
