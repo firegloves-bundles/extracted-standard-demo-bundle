@@ -10,7 +10,8 @@ guiCode: |-
   <#assign langstrs = [] />
   <#list langsVar as curLangVar>
     <#assign langurl><@wp.url lang="${curLangVar.code}" paramRepeat=true /></#assign>
-    <#assign langstr = ["{\"code\": \"" + curLangVar.code + "\", \"descr\": \"" + curLangVar.descr + "\", \"url\": \""+ langurl +"\"}"]  />
+    <#assign langdesc><@wp.i18n key="LANG_${curLangVar.code?upper_case}" /></#assign>
+    <#assign langstr = ["{\"code\": \"" + curLangVar.code + "\", \"descr\": \"" + langdesc + "\", \"url\": \""+ langurl +"\"}"]  />
     <#assign langstrs = langstrs + langstr />
   </#list>
   <#assign lang_json_string = langstrs?join(", ") />

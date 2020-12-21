@@ -1,12 +1,9 @@
-code: extracted-standard-demo-bundle
-description: EXTRACTED Standard Demo Bundle
+code: new-standard-demo-bundle
+description: New Standard Demo Bundle
 components:
   widgets:
     - widgets/nws_archive-descriptor.yaml
     - widgets/nws_latest-descriptor.yaml
-    - widgets/foo-details-widget-descriptor.yaml
-    - widgets/foo-form-widget-descriptor.yaml
-    - widgets/foo-table-widget-descriptor.yaml
     - widgets/search_form-descriptor.yaml
   pageModels:
     - pageModels/1-2-column-descriptor.yaml
@@ -27,9 +24,6 @@ components:
     - fragments/entandoapi_is_resource_list-descriptor.yaml
     - fragments/entandoapi_is_service_detail-descriptor.yaml
     - fragments/entandoapi_is_service_list-descriptor.yaml
-    - fragments/foo_details_widget-descriptor.yaml
-    - fragments/foo_form_widget-descriptor.yaml
-    - fragments/foo_table_widget-descriptor.yaml
     - fragments/internal_servlet_generic_error-descriptor.yaml
     - fragments/internal_servlet_user_not_allowed-descriptor.yaml
     - fragments/jacms_content_viewer-descriptor.yaml
@@ -115,8 +109,7 @@ components:
     - contents/tcl6-descriptor.yaml
     - contents/nws5-descriptor.yaml
     - contents/nws4-descriptor.yaml
-  plugins:
-    - plugins/awesomeplugin-descriptor.yaml
+  plugins: []
   categories:
     - categories/categories-descriptor.yaml
   labels:

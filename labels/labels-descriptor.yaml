@@ -266,6 +266,14 @@
   titles:
     en: Ignore
     it: Ignora
+- key: LANG_EN
+  titles:
+    en: English
+    it: Inglese
+- key: LANG_IT
+  titles:
+    en: Italian
+    it: Italiano
 - key: LIST_VIEWER_EMPTY
   titles:
     en: No result found. Broaden your search and try again!
@@ -390,11 +398,3 @@
   titles:
     en: Last access
     it: Ultimo accesso
-- key: USER_DATE_CREATION
-  titles:
-    en: Creation date
-    it: Data creazione
-- key: USER_DATE_PASSWORD_CHANGE_LAST
-  titles:
-    en: Last change
-    it: Ultimo cambio password
