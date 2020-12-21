@@ -6,7 +6,9 @@ attributes:
     type: Text
     names:
       en: title
-    roles: []
+    roles:
+      - code: 'jacms:title'
+        descr: The main title of a Content
     disablingCodes: []
     mandatory: true
     listFilter: false
