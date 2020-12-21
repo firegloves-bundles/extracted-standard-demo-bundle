@@ -2,8 +2,6 @@ code: new-standard-demo-bundle
 description: New Standard Demo Bundle
 components:
   widgets:
-    - widgets/nws_archive-descriptor.yaml
-    - widgets/nws_latest-descriptor.yaml
     - widgets/search_form-descriptor.yaml
   pageModels:
     - pageModels/1-2-column-descriptor.yaml

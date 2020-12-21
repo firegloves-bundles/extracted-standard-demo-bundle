@@ -38,9 +38,7 @@ attributes:
     type: Text
     names:
       en: title
-    roles:
-      - code: 'jacms:title'
-        descr: The main title of a Content
+    roles: []
     disablingCodes: []
     mandatory: true
     listFilter: true
