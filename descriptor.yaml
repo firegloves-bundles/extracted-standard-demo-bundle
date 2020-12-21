@@ -9,7 +9,6 @@ components:
     - pageModels/1-2x4-1-column-descriptor.yaml
     - pageModels/1-column-descriptor.yaml
     - pageModels/content-page-descriptor.yaml
-    - pageModels/home-descriptor.yaml
     - pageModels/single_frame_page-descriptor.yaml
   fragments:
     - fragments/breadcrumb-descriptor.yaml
